@@ -1,0 +1,97 @@
+
+body{
+background-color: #F9F5F6;
+color: rgb(143, 143, 143);
+}
+header{
+    background-color: #F2BED1;
+    color: #ffffff;
+}
+nav{
+    text-align: center;
+    padding: 2px;
+}
+nav a{
+    text-decoration:none ;
+    color: #F9F5F6;
+    padding: 10px;
+    font-size: large;
+}
+#defincion{
+    display: flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: larger;
+}
+#defincion .frist{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#defincion img{
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+iframe{
+    margin-top: 40px;
+    box-sizing: border-box;
+    width: 50%;
+    align-self: center;
+}
+
+#causes{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+h2{
+    font-size: x-large;
+}
+ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4px;
+    
+}
+ul li{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 2px;
+}
+
+ul li p{
+   padding-right: 200px;
+   font-size: large;
+
+}
+
+#Signs{
+    margin-left: 100px;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 4px;
+    /* width: 50%; */
+  }
+  #contact{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+  form input{
+    height: 30px;
+  }
+  footer{
+    margin-top: 20px;
+    margin-left: 50px;
+    
+  }
